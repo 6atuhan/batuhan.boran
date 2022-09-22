@@ -11,7 +11,7 @@
                 <p class=" pl-64 font-futuraLBold text-white text-3xl text-outline mt-8 pr-2 ">Dogum tarihi: Haziran 1998</p>
                 <p class=" pl-64 font-futuraLBold text-white text-3xl text-outline mt-8 pr-2 ">Ehliyetim var</p>
                 <div class="flex">
-                <a class=" pl-64 font-futuraLBold text-green-900 hover:text-green-700 transition-colors text-3xl text-outline mt-8 pr-2 " href="/src/assets/BATUHAN_BORAN_CV.pdf" download="BATUHAN_BORAN_CV.pdf">Cv indir</a>
+                <a class=" pl-64 font-futuraLBold text-green-900 hover:text-green-700 transition-colors text-3xl text-outline mt-8 pr-2 " :href="cv" download="BATUHAN_BORAN_CV.pdf">Cv indir</a>
                 <a class=" pl-64 font-futuraLBold text-zinc-900 hover:text-zinc-700 transition-colors text-3xl text-outline mt-8 pr-2 " href="https://github.com/6atuhan" target="_blank" >Github</a>
                 <a class=" pl-64 font-futuraLBold text-blue-900 hover:text-blue-700 transition-colors text-3xl text-outline mt-8 pr-2 " href="https://www.linkedin.com/in/6atuhan/" target="_blank">LinkedIn</a>
 
