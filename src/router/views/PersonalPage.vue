@@ -36,7 +36,7 @@
     <script setup>
         import { useRouter } from 'vue-router';
         import sound from "/src/assets/sounds/gta-menu-select.wav"
-
+        import cv from "/src/assets/BATUHAN_BORAN_CV.pdf"
         const router= useRouter()
         const goMenu=()=>{
             playSound()
