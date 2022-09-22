@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .menu-item{
+        @apply
+        h-12 w-full flex items-start justify-center select-none hover:before:content-[url('/src/assets/icons/menuicongta.png')] hover:after:content-[url('/src/assets/icons/menuicongta.png')] after:opacity-0 tracking-widest text-gtagray-passive hover:text-gtagray cursor-default my-4 text-4xl font-bankGothick
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: bankGothick;
+    src: url("/src/assets/fonts/bankGothick.ttf");
+}
+@font-face {
+    font-family: beckett;
+    src: url("/src/assets/fonts/beckett.ttf");
+}
+@font-face {
+    font-family: diploma;
+    src: url("/src/assets/fonts/diploma.ttf");
+}
+@font-face {
+    font-family: futuraLBold;
+    src: url("/src/assets/fonts/futuraLBold.ttf");
+}
+@font-face {
+    font-family: priceDown;
+    src: url("/src/assets/fonts/priceDown.otf");
+}
